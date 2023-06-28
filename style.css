@@ -1,0 +1,87 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+header img {
+	width: 100%;
+	max-height: 400px;
+	object-fit: cover;
+}
+
+nav {
+	background-color: #333;
+	color: #fff;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav li {
+	flex-grow: 1;
+	text-align: center;
+	padding: 20px;
+}
+
+nav li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+nav li.active {
+	background-color: #fff;
+}
+
+nav li.active a {
+	color: #333;
+}
+
+main {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+section.intro h1 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+section.intro p {
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+section.team {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 40px;
+}
+
+section.team h2 {
+	flex-basis: 100%;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.person {
+	flex-basis: calc(100% / 3 - 20px);
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.person img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	border-radius: 50%;
+	margin-bottom: 10px;
+}
